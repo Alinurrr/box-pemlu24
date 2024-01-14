@@ -1,0 +1,94 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #023040; 
+    font-family: Times New Roman;
+}
+
+.title {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    max-width: 736px;
+    margin-bottom: 16px;
+}
+
+
+.box-pemilu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paper{
+    width: 94px;
+    height: 114px;
+    display: flex;
+    transform: rotate(35.754deg);
+    margin-left: 32px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 40px 0px;
+    background: #fff;
+    position: relative;
+    top: 26px;
+    z-index: 100;
+}
+.paper-text{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 24px;
+    margin-left: 8px;
+}
+
+.box-top{
+    display: flex;
+    width: 230px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 48px 48px 0px 0px;
+    background: #CEE7EC;
+}
+
+.box-hole{
+    position: relative;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 89px;
+    height: 11px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px 8px 0px 0px;
+    background: #002F41;
+}
+
+.box-body{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 156px;
+    flex-shrink: 0;
+    border-top: 1px solid #7A8D8F;
+    background: #CEE7EC;
+}
